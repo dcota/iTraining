@@ -1,0 +1,49 @@
+<!--
+Projet: Projeto LEI
+Author: Duarte Cota
+Date: 2020
+Script: Página de simulação do processamento de analíticas pela Inven!RA
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>iTr@ining</title>
+        <link rel='icon' type='image/png' href='../img/it_logo_white.png'>
+        <link href='../css/style_invenira.css' type='text/css' rel='stylesheet'/>
+        <script type='text/javascript' src='../js/script_invenira.js'></script>
+    </head>
+    <!--ao iniciar executar a função de script() -->
+    <body onload = 'script();'>
+        <div id = 'header'>
+           <h1>Inven!RA</h1>
+        </div>
+        <div>
+            <select id = 'options1'>
+                <option value=''></option>
+                <option value='Consulta de documentação'>Consulta de documentação</option>
+                <option value='Configuração de hardware'>Configuração de hardware</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <select id = 'options2' onchange='getActID(this.id)'>
+            </select>
+        </div>
+        <br><br>
+        <h2  id = 'name'> ATIVIDADE: </h2> 
+        <br><br>
+        <table id='table' >
+             <thead>
+                <tr>
+                    <th id='aluno'>Aluno</th>
+                    <th id='analitica'>Analítica</th>
+                    <th id='status'>Status</th>
+                    <th id='analQuant'>Outras analíticas</th>
+                </tr>
+            </thead>
+        </table>      
+    </body>
+</html>
