@@ -1,0 +1,66 @@
+/*
+Projet: Projeto LEI
+Author: Duarte Cota
+Date: 2020
+Script: CSS simulação Inven!RA
+*/
+
+body {
+  background: whitesmoke;
+  padding: 0;
+  margin: 0;
+  overflow: scroll;
+}
+
+.container {
+  max-width:950px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #003366;
+  font-family: arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 1%;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+}
+
+h2 {
+  color: #003366;
+  font-family: arial, sans-serif;
+  font-size: 1.5em;
+  padding-left: 40px;
+  margin-top: 0px;
+}
+
+table, td, th {
+  font-family: arial, sans-serif;
+  font-size:15px;
+  color: #003366;
+  border: 2px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position:relative;
+  margin-left: 40px;
+  
+}
+
+#table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#options1, #options2 {
+  position:relative;
+  margin-left: 40px;
+  border: 2px solid #808080;
+  border-radius: 4px;
+}

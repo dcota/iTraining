@@ -1,0 +1,46 @@
+<!--
+Projet: Projeto LEI
+Author: Duarte Cota
+Date: 2020
+Script: HTML deploy Consulta de Documentação
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iTr@ining</title>
+        <link rel="icon" type="image/png" href="../img/it_logo_white.png">
+        <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="../js/script_2.js"></script>
+    </head>
+    <!--ao iniciar executar a função de script() -->
+    <body onload = "script(document);">
+        <div class = "container">
+            <div id="header">
+                <h1>inventiveTr@ining
+                    <a href="/"><img src="../img/it_logo.png"></a>
+                </h1>
+            </div>
+            <h2>CONSULTA DE DOCUMENTAÇÃO</h2>
+            <br><br>
+            <h3>1.Resumo do descritivo técnico:</h3>  
+            <div>
+				<textarea type="textarea" id="desc" onfocus=this.value='' rows="4" cols="115"></textarea>
+			</div>
+            <br>
+            <h3>2.Obter o descritivo técnico</h3>
+            <div>
+                <button id=getURL_button> Obter </button> 
+            </div>
+            <br>
+            <h3>3.Hiperligações para materiais de apoio</h3>
+            <div class = "box" id = "box2">
+            </div>
+            <div>
+                <br>
+                <button id=getLinks_button> Obter </button> 
+            </div>
+    </body>
+</html>

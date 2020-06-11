@@ -1,0 +1,51 @@
+<!--
+Projet: Projeto LEI
+Author: Duarte Cota
+Date: 2020
+Script: HTML deploy testes firmware
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iTr@ining</title>
+        <link rel="icon" type="image/png" href="../img/it_logo_white.png">
+        <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="../js/script_4.js"></script>
+    </head>
+    <!--ao iniciar executar a função de script() -->
+    <body onload = "script();">
+        <div class = "container">
+            <div id="header">
+                <h1>inventiveTr@ining
+                    <a href="/"><img src="../img/it_logo.png"></a>
+                </h1>
+            </div>
+            <h2>CONFIGURAÇÃO DE HARDWARE - TESTES DE FIRMWARE</h2>
+            <br><br>
+            <h3>1.Resumo:</h3>  
+            <div>
+                <textarea type="textarea" id="desc" onfocus=this.value='' rows="4" cols="115"></textarea>
+            </div>
+            <br>
+            <h3>2.Instruções para a realização da atividade</h3>
+            <div>
+                <button id=getInstr_button> Obter </button> 
+            </div>
+            <br>
+            <h3>3.Descarregar código-base:</h3>
+            <div>
+                <button id=getCode_button> Obter </button> 
+            </div>
+            <br>
+            <h3>4.Hiperligações para bilbiotecas e documentos de apoio:</h3>
+            <div class = "box" id = "box3">
+            </div>
+            <div>
+                <br>
+                <button id=getLinks_button> Obter </button> 
+            </div>
+    </body>
+</html>

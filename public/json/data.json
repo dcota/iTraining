@@ -1,0 +1,18 @@
+{
+	"summary":"Nesta atividade pretende-se planificar, desenhar, configurar e programar uma aplicação com micro-controladores para controlo de parâmetros ambientais numa estufa. Nesta página poderá descarregar o descritivo técnico do projeto bem como alguns documentos de apoio e orientação. \nOs componentes indicados são meramente sugestões podendo ser utilizados outros desde que forneçam os dados no formato pretendido.",
+	"dtURL":"https://www.dropbox.com/s/w9k5ck7q4hcd39f/desc_tec1.doc?dl=0",
+	"docsURLs":[
+		{
+			"lnk":"https://www.arduino.cc/reference/en","desc":"Página de referência do Arduino"
+		},
+		{
+			"lnk":"http://www.ti.com/lit/ds/symlink/lm35.pdf","desc":"Datasheet LM35"
+		},
+		{
+			"lnk":"https://image.dfrobot.com/image/data/KIT0003/DHT11%20datasheet.pdf","desc":"Datasheet DHT11"
+		},
+		{
+			"lnk":"https://www.adafruit.com/product/3660","desc":"Sensor BME680 (temperatura+humidade+gás)"
+		}
+	]
+}

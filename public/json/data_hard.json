@@ -1,0 +1,13 @@
+{
+    "activityID" : 1234,
+	"inveniraStdID" : 1001,
+    "summary":"Para a realização de testes do trabalho desenvolvido até agora, deverá utilizar o código-base que poderá ser descarregado utilizando o URL abaixo. Para que o protótipo possa ser ligado e os dados enviados deverá proceder de acordo com as instruções que poderá descarregar no link indicado.",
+    "codeURL":"https://www.dropbox.com/s/y43fcjc4y3nvhb7/arduino_base_code.ino?dl=0",
+    "instrURL":"https://www.dropbox.com/s/by3uzpmyta3x6p2/instr_A7.1.doc?dl=0",
+    "libsURLs":[
+        {
+            "lnk":"https://arduinojson.org/v6/doc/installation/",
+            "desc":"Instruções para instalação da biblioteca ArduinoJson"
+        }
+    ]
+}

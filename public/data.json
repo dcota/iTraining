@@ -1,0 +1,18 @@
+{
+	"summary" : "Sumário do DT",
+	"dtURL" : "http://www.duartecota.pt/DT/dt.html",
+	"links": [
+		{
+			"lnk" : "http://www.arduino.cc",
+			"desc": "Página de referência do Arduino"
+		},
+		{
+			"lnk" : "http://www.ti.com/lit/ds/symlink/lm35.pdf",
+			"desc": "Datasheet do LM35"
+		},
+		{
+			"lnk" : "https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout",
+			"desc": "Datasheet do BMP280"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+<!--
+Projet: Projeto LEI
+Author: Duarte Cota
+Date: 2020
+Script: HTML configuração testes firmware
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iTr@ining</title>
+        <link rel="icon" type="image/png" href="../img/it_logo_white.png">
+        <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="../js/script_3.js"></script>
+    </head>
+    <!--ao iniciar executar a função de script -->
+    <body onload = "script();">
+        <div class = "container">
+            <div id="header">
+                <h1>inventiveTr@ining
+                    <a href="/"><img src="../img/it_logo.png"></a>
+                </h1>
+            </div>
+            <h2>CRIAR ATIVIDADE - TESTES DE FIRMWARE</h2>
+            <br><br>
+            <h3>1.Resumo:</h3>  
+            <div>
+				<textarea type="textarea" id="desc" onfocus=this.value ='' rows="4" cols="115"></textarea>
+			</div>
+            <div>
+				<button id=clear_button onclick= "document.getElementById('desc').value = ''"> Limpar </button>
+				</div>
+            <br>
+            <h3>2.URL para instruções:</h3>
+            <div>
+                <input type="text" id="desc_instr" name="desc_instr" size="100"> 
+            </div>
+            <br>
+            <h3>3.URL para descarga de código</h3>
+            <div >
+                <input type="text" id="desc_code" name="links" size="100"> 
+            </div>
+            <br>
+            <h3>4.URL das hiperligações para bibliotecas/documentos técnicos</h3>
+            <div >
+                <p id= "title_links"><b>URL + Descritivo do URL:</b></p>
+                <input type="text" id="links" name="links" size="60">
+                <input type="text" id="links_desc" name="links" size="60">
+                <button id=add_button> Adicionar </button>  
+            </div>
+            <br>
+            <div id = "list_header">
+               <p><b>Lista de hiperligações:</b></p>
+            </div>
+            <div id = "list">                
+            </div>
+            <div> 
+                <button id=rem_button> Remover </button> 
+            </div>
+    </body>
+</html>
